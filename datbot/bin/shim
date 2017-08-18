@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/lsp/experiment/HG-Bot/datbot/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/lsp/experiment/HG-Bot/datbot
+export npm_config_prefix=/Users/lsp/experiment/HG-Bot/datbot
+exec datbot/bin/node "$@"
